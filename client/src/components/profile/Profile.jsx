@@ -1,4 +1,3 @@
-import React from "react";
 import { Avatar, Box, Button, Paper } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -25,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Profile(props) {
   const classes = useStyles();
+
 
   return (
     <Paper

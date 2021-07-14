@@ -41,7 +41,6 @@ export default function SigninPage() {
   };
   return (
     <div style={{ width: "auto", position: 'relative' }}>
-
       <div className={classes.signupUp}>
         <form className={classes.root} noValidate autoComplete="off">
           {error}

@@ -16,9 +16,8 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
 import ListItemText from "@material-ui/core/ListItemText";
 import ContactsIcon from "@material-ui/icons/ImportContacts";
-import HelpIcon from "@material-ui/icons/Help";
 import Crop54Icon from "@material-ui/icons/Crop54";
-import { NavLink, Route, Switch } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import PersonIcon from '@material-ui/icons/Person';
 import ExitToAppIcon from '@material-ui/icons/ExitToApp';
 

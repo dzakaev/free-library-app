@@ -49,7 +49,7 @@ export const fetchBook = () => {
         dispatch({ type: "todos/book/fulfilled", payload: json });
       }
     } catch (e) {
-      dispatch({ ype: "todos/book/rejected", error: e.toString() });
+      dispatch({ type: "todos/book/rejected", error: e.toString() });
     }
   };
 };

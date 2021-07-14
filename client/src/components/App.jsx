@@ -14,14 +14,14 @@ function App(props) {
     return (
       <BrowserRouter>
         <Switch>
-          <Route path="/signin" exact>
+          <Route path="/signin">
             <SigninPage />
           </Route>
           <Route path="/signup">
             <SignupPage />
           </Route>
+          <Redirect to="/signup" />
         </Switch>
-        <Redirect to="/signin" />
       </BrowserRouter>
     );
   }

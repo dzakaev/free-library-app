@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Avatar, Box, Paper } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 import HomePage from "../pages/HomePage";
+
 
 const useStyles = makeStyles((theme) => ({
   container: {
@@ -32,12 +33,6 @@ function MainBody(props) {
       <Paper elevation={20} className={classes.container}>
         <Box style={{ padding: 30 }}>
           <Avatar src="" className={classes.large} />
-        </Box>
-        <Box>
-          <h2>Имя</h2>
-        </Box>
-        <Box>
-          <h2>Фамилия</h2>
         </Box>
       </Paper>
       <Paper className={classes.content} elevation={20}>

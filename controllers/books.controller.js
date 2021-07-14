@@ -3,14 +3,13 @@ const Books = require('../models/Book.model');
 module.exports.booksController = {
 
   getAllBooks: async (req, res) => {
+
     const books = await Books.find()
     res.json(books)
   },
   deleteBooks: async (req, res) => {
     const { id } = req.params;
     try {
-      const book = await Book.findById(id);
-
 
       const books = await Books.findById(id)
 
